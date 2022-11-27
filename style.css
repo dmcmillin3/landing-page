@@ -5,9 +5,42 @@
     padding: 0;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
 .hero {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
+}
+
+.hero-container {
+    padding: 100px 200px;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-image {
+    min-width: 800px;
+    min-height: 275px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -15,6 +48,12 @@
     justify-content: space-between;
     padding: 18px 100px;
     align-items: center;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .nav-links {
@@ -26,6 +65,19 @@
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 100px;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.subtext, .sign-up {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul li {
