@@ -26,6 +26,25 @@
     min-height: 75px;
 }
 
+.cta-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 .hero {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
@@ -115,6 +134,14 @@
     width: 100px;
     padding: 8px 16px;
     text-align: center;
+}
+
+.sign-up-2 {
+    color: #F9FAF8;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .subtext, .sign-up {
