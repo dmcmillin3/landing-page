@@ -45,6 +45,19 @@
     color: #F9FAF8;
 }
 
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer p {
+    color: #E5E7EB;
+}
+
 .hero {
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
